@@ -4,13 +4,10 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    /*background-color: #111111;
-    color: #e0e0e0;*/
 }
 
 header{
     display: flex;
-    /*flex-direction: column;*/
     flex-direction: row-reverse;
     align-items: center;
     position: fixed;
