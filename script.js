@@ -4,16 +4,9 @@ window.onscroll = function() {
     var logo = document.getElementById("logo");
     
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        //header.style.flexDirection = "row-reverse"
         header.style.fontSize = "1.2em";
-        //header_space.style.height = "13em";
-        //logo.src = "logo/WestonHouse6.svg"
-
     } else {
-        //header.style.flexDirection = "column"
         header.style.fontSize = "1.8em";
-        //header_space.style.height = "13em";
-        //logo.src = "logo/WestonHouse6.svg"
     }
 } 
 
